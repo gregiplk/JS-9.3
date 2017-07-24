@@ -4,6 +4,5 @@ var text = "Velociraptor is a genus of herbivorous ceratopsid dinosaur that firs
 var dinosaur = "triceratops"
 var dinosaurUpperCased = dinosaur.toUpperCase();
 var textCharsAfter = text.replace('Velociraptor', dinosaurUpperCased);
-partOftextCharsAfter = textCharsAfter.slice(0, 72);
 
-console.log(partOftextCharsAfter);
+console.log(textCharsAfter.substr(0, textCharsAfter.length/2));
